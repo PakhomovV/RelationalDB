@@ -72,7 +72,7 @@
 
 
 	Название таблиц			Первичный ключ
-| actor                      | actor_id
+| actor                      /n | actor_id /n
 | actor_info                 | нет первичного ключа
 | address                    | address_id
 | category                   | category_id
@@ -112,6 +112,7 @@
 3.1. revoke insert,update,delete,drop,alter on sakila. *from 'sys_temp'@'localhost';
 3.2. show grants for 'sys_temp'@'localhost';
 
+```
 
 ![Задание 3](https://github.com/PakhomovV/RelationalDB/blob/main/Lecture_2/Задание_3.png)`
 
