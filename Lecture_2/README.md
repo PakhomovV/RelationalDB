@@ -96,7 +96,9 @@
 | staff_list                 | нет первичного ключа
 | store                      | store_id 
 
+```
 
+![Задание 3](https://github.com/PakhomovV/RelationalDB/blob/main/Lecture_2/Задание_2.png)`
 
 
 ### Задание 3
