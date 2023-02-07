@@ -72,7 +72,7 @@
 
 
 	Название таблиц			Первичный ключ
-| actor                      /n | actor_id /n
+| actor                      | actor_id `/n`
 | actor_info                 | нет первичного ключа
 | address                    | address_id
 | category                   | category_id
