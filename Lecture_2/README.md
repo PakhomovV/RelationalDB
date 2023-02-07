@@ -98,7 +98,9 @@
 
 ```
 
-![Задание 3](https://github.com/PakhomovV/RelationalDB/blob/main/Lecture_2/Задание_2.png)`
+![Задание 3](https://github.com/PakhomovV/RelationalDB/blob/main/Lecture_2/Задание_2.png)
+
+----
 
 
 ### Задание 3
@@ -116,6 +118,6 @@
 
 ```
 
-![Задание 3](https://github.com/PakhomovV/RelationalDB/blob/main/Lecture_2/Задание_3.png)`
+![Задание 3](https://github.com/PakhomovV/RelationalDB/blob/main/Lecture_2/Задание_3.png)
 
-
+-----
