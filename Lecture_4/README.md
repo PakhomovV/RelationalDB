@@ -38,7 +38,7 @@ master - master происходит копирование в обе сторо
 ### Задание 2
 
 
-[Задание 2](https://github.com/PakhomovV/RelationalDB/blob/main/Lecture_4/Задание_2.png)`
+![Задание 2](https://github.com/PakhomovV/RelationalDB/blob/main/Lecture_4/Задание_2.png)`
 
 
 ---
@@ -48,8 +48,8 @@ master - master происходит копирование в обе сторо
 
 
 
-[Задание 3.1](https://github.com/PakhomovV/RelationalDB/blob/main/Lecture_4/Задание_3_1.png)`
+![Задание 3.1](https://github.com/PakhomovV/RelationalDB/blob/main/Lecture_4/Задание_3_1.png)`
 
-[Задание 3.2](https://github.com/PakhomovV/RelationalDB/blob/main/Lecture_4/Задание_3_2.png)`
+![Задание 3.2](https://github.com/PakhomovV/RelationalDB/blob/main/Lecture_4/Задание_3_2.png)`
 
 
