@@ -44,14 +44,14 @@
 ` PostgreSQL`
 
 1. pg_dumpall > "c:\backups\all_bases.sql" - скопирует все базы данных
-   pg_dump -Ft postgres > "c:\backups\db.tar" - скопирует БД в архив
-   pg_dump mydb > db.sql - Выгрузка базы данных mydb в файл SQL-скрипта
-   pg_dump -Fd mydb -f dumpdir - Выгрузка базы данных в формате каталога
-   pg_dump -t mytab mydb > db.sql - Выгрузка отдельной таблицы mytab
-   pg_dump -d postgres -n public > "c:\backups\public.sql" - выгрузка схемы
-   pg_restore -d newdb db.dump - Восстановление из архива в чистую новую базу данных newdb
-   psql -d newbase -f "c:\backups\public.sql" - восстановление данных в другую БД
-   pg_restore -d postgres --clean --create db.dump - восстановление в туже базу с предварительной очисткой старых данных
+  - pg_dump -Ft postgres > "c:\backups\db.tar" - скопирует БД в архив
+  - pg_dump mydb > db.sql - Выгрузка базы данных mydb в файл SQL-скрипта
+  - pg_dump -Fd mydb -f dumpdir - Выгрузка базы данных в формате каталога
+  - pg_dump -t mytab mydb > db.sql - Выгрузка отдельной таблицы mytab
+  - pg_dump -d postgres -n public > "c:\backups\public.sql" - выгрузка схемы
+  - pg_restore -d newdb db.dump - Восстановление из архива в чистую новую базу данных newdb
+  - psql -d newbase -f "c:\backups\public.sql" - восстановление данных в другую БД
+  - pg_restore -d postgres --clean --create db.dump - восстановление в туже базу с предварительной очисткой старых данных
 
 2. pg_basebackup - предназначен для создания резервных копий работающего
    кластера баз данных PostgreSQL. Процедура создания копии не влияет на работу
@@ -66,9 +66,9 @@
 `MySQL`
 
 1. mysqldump -u имя пользователя -p [пароль] [Параметры]  Имя таблицы имени базы данных >  / Путь к резервной копии / Имя файла резервной копии
-(Двоичный журнал сохраняет все обновления или операции, которые могут обновлять базу данных.
- Двоичный журнал начинает запись после запуска сервера MySQL, и новый файл журнала создается заново после того, как файл достигает размера, установленного max_binlog_size, или после получения команды flush logs.)
- mysqlbinlog --no-defaults --base64-output=decode-rows -V mysql-bin.000002 > /opt/ bak. txt - просмотр двоичного журнала
+- (Двоичный журнал сохраняет все обновления или операции, которые могут обновлять базу данных.
+- Двоичный журнал начинает запись после запуска сервера MySQL, и новый файл журнала создается заново после того, как файл достигает размера, установленного max_binlog_size, или после получения команды flush logs.)
+- mysqlbinlog --no-defaults --base64-output=decode-rows -V mysql-bin.000002 > /opt/ bak. txt - просмотр двоичного журнала
  
 2. В случиях когда нужно обеспечить бесперебойную работу БД.
 
